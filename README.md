@@ -31,7 +31,7 @@ docker images
 
 ```bash
 docker container ls
-docker run -d -p 5000:5000 simple-flask-app
+docker run --name simple-flask-app-c -d -p 5000:5000 simple-flask-app
 docker container ls
 ```
 
@@ -42,6 +42,6 @@ docker container ls
 
 ### Cleanup
 ```
-docker container rm -f simple-flask-app
+docker container rm -f simple-flask-app-c
 docker rmi simple-flask-app:latest
 ```
