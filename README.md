@@ -4,13 +4,15 @@
 ```
 ssh atingupta2005@172.190.40.220
 clear
+cd
 git clone https://github.com/atingupta2005/python-flask-docker-hello-world
-cd python-flask-docker-hello-world
+cd ~/python-flask-docker-hello-world
 ```
 
 ### Review the files
 ```
 clear
+cd ~/python-flask-docker-hello-world
 cat app.py
 cat requirements.txt
 cat Dockerfile
@@ -19,6 +21,7 @@ cat Dockerfile
 ### Build the image using the following command
 
 ```bash
+cd ~/python-flask-docker-hello-world
 docker build -t simple-flask-app:latest .
 ```
 
