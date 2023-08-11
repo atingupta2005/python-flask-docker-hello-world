@@ -38,3 +38,10 @@ docker container ls
 ### Note
 - The application will be accessible at:
       - http://172.190.40.220:5000
+
+
+### Cleanup
+```
+docker container rm -f simple-flask-app
+docker rmi simple-flask-app:latest
+```
