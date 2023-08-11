@@ -22,10 +22,11 @@ cat Dockerfile
 docker build -t simple-flask-app:latest .
 ```
 
-Run the Docker container using the command shown below.
+### Run the Docker container using the command shown below.
 
 ```bash
 docker run -d -p 5000:5000 simple-flask-app
 ```
 
-- The application will be accessible at http:127.0.0.1:5000
+### Note
+ - The application will be accessible at http:127.0.0.1:5000
