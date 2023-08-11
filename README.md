@@ -36,5 +36,5 @@ docker container ls
 ```
 
 ### Note
- - The application will be accessible at:
-    - http://172.190.40.220:5000
+- The application will be accessible at:
+      - http://172.190.40.220:5000
