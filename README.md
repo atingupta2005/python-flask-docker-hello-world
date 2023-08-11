@@ -22,13 +22,17 @@ cat Dockerfile
 
 ```bash
 cd ~/python-flask-docker-hello-world
+docker images
 docker build -t simple-flask-app:latest .
+docker images
 ```
 
 ### Run the Docker container using the command shown below.
 
 ```bash
+docker container ls
 docker run -d -p 5000:5000 simple-flask-app
+docker container ls
 ```
 
 ### Note
