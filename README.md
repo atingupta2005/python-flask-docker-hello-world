@@ -46,4 +46,6 @@ docker container rm -f simple-flask-app-c
 docker rmi simple-flask-app:latest
 docker container ls
 docker images
+cd
+rm -rf ~/python-flask-docker-hello-world
 ```
